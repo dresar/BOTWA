@@ -1,0 +1,45 @@
+{
+  "name": "whatsapp-bot-grup",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp canggih untuk grup dengan fitur lengkap",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "grup",
+    "nodejs"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "axios": "^1.10.0",
+    "cheerio": "^1.0.0-rc.12",
+    "compromise": "^14.9.0",
+    "dotenv": "^17.0.1",
+    "figlet": "^1.8.1",
+    "groq-sdk": "^0.26.0",
+    "jimp": "^0.22.12",
+    "mathjs": "^11.9.1",
+    "moment": "^2.30.1",
+    "node-cache": "^5.1.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "sentiment": "^5.0.2",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1",
+    "whatsapp-web.js": "^1.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
